@@ -1,0 +1,1 @@
+Color scheme inspiration: https://dribbble.com/shots/7148139-Solar-system-app-concept

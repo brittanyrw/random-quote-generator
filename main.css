@@ -1,0 +1,60 @@
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    max-width: 900px;
+    margin: auto;
+}
+
+header h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quote-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.quote {
+    font-size: 20px;
+    padding: 15px;
+}
+
+#quote p {
+    padding: 15px;
+}
+
+.quote:before {
+    content: "“";
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.name {
+    color: gray;
+    padding-left: 30px;
+}
+
+.name:before {
+    content: "-";
+    margin-right: 5px;
+}
+
+.button-container {
+    border-top: 2px solid black;
+    padding: 15px;
+}
+
+.generate-quote {
+    background-color: black;
+    border: 0;
+    padding: 15px;
+    font-size: 21px;
+    color: white;
+}
