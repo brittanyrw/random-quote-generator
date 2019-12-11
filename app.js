@@ -35,13 +35,13 @@ const quotes = [
     }
 ]
 
-//Generate a random number
+// This creates a function that generates a random number so that we can display a random quote from our quotes variable. We are using 10 in our return because we have 10 quotes so we want a number from 0 to 9. The quotes array starts counting at 0.
 
 function randomNumber(){
     return Math.floor(Math.random() * 10)
 }
 
-// Use the random number in a loop to grab a quote
+// This creates a function that will take the random number we generate above, find a quote from our quotes array and then build the HTML for the quote to display on the page.
 
 function generateRandomQuote(){
     // This will return an object of a randomly picked quote.
@@ -49,8 +49,8 @@ function generateRandomQuote(){
     return '<p class="quote">' + randomQuote.quote + '</p><p class="name">' + randomQuote.name + '</p>';
 }
 
+// This is jQuery (as indicated by the use of the $ sign). This code is watching for an event. the .on method allows you specify various events. We are using 'click', so the code inside of this function will run when a user clicks. After they click, we are targeting the HTML element were we want to place the quote and then we are updating the HTML to include the HTML we a returning from the generateRandomQuote function.
+
 $(".generate-quote").on("click", function () {
     $('#quote').html(generateRandomQuote())
 });
-
-// Place that quote to generate a number
