@@ -4,6 +4,9 @@ This is a random quote generator featuring quotes from various people who have s
 
 ![Screenshot of the random quote generator](readme-imgs/project-example.gif)
 
+## Exercise
+
+In the exercise folder, add JavaScript to the app.js file to make your random quote generator work. To see a solution, check in the solution folder. 
 
 ## Additional Exercises
 
