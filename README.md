@@ -2,6 +2,9 @@
 
 This is a random quote generator featuring quotes from various people who have shaped the technology and computer science industries over the years. 
 
+![Screenshot of the random quote generator](readme-imgs/project-example.gif)
+
+
 ## Additional Exercises
 
 Below are some suggestions for additional exercises you can complete to make this project your own.
