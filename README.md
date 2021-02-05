@@ -1,4 +1,5 @@
-# Random Quote Generator Exercise
+#G
+ Random Quote Generator Exercise
 
 This is a random quote generator featuring quotes from various people who have shaped the technology and computer science industries over the years. 
 
